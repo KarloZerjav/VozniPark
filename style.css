@@ -1,0 +1,306 @@
+.adresa {
+    background-color: #f5f5f5;
+    color: black;
+    padding-top: 9px;
+    height: 32px;
+    font-size: 10px;
+}
+
+.a_adresa {
+    font-size: 10px;
+    color: #7d7d7d;
+    text-decoration: underline;
+    letter-spacing: 0.5px;
+}
+
+.navbar_slika {
+    width: 270px;
+}
+
+.crta {
+    border-bottom: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 98%;
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+
+.sredina {
+    width: 100%;
+    min-height: 457px;
+    height: auto;
+    background-color: #ffffff;
+}
+
+.footer_boja {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 12px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.gumb_pozicija {
+    text-align: right;
+}
+
+.gumb {
+    width: 105px;
+    height: 48px;
+    margin-top: 10px;
+    font-weight: bold
+}
+
+.login_stranica {
+    background: url('img/Pozadina.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.forma_parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login_forma {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.forma {
+    background-color: #f5f5f5;
+    padding: 30px;
+    text-align: center;
+}
+
+.gumb_forma {
+    width: auto;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.pogresna_lozinka {
+    font-style: italic;
+    margin: 0 auto;
+}
+
+.gumb_tvrtke {
+    width: 203px;
+    height: 48px;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.crta_tvrtke {
+    border-bottom: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 98%;
+    max-width: 100%;
+}
+
+
+@media (max-width: 1200px) {
+    .responzivno {
+        display: block !important;
+        text-align: center !important;
+    }
+
+    .gumb_pozicija {
+        text-align: center;
+    }
+
+    .adresa {
+        height: 45px;
+    }
+}
+
+@media (max-width: 767.20px) {
+    .dataTables_length {
+        display: none;
+    }
+
+    .dataTables_info {
+        display: none;
+    }
+
+    .font_mob {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 991.20px) {
+    .slika_sredina {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .dataTables_info {
+        display: none;
+    }
+
+    .col-sm-12 {
+        padding: 0px !important;
+    }
+
+    .mob_verzija {
+        padding: 0px !important;
+        max-width: 100%;
+        margin: 0px;
+    }
+
+    .obavijest {
+        width: 100% !important;
+        margin-right: -9px !important;
+    }
+
+    .mob_polozaj {
+        display: -ms-inline-grid !important;
+    }
+
+    .gumb {
+        width: auto;
+        height: 48px;
+    }
+
+    .sredina_obavijest {
+        margin-left: -20px !important;
+    }
+
+    .naslovi {
+        text-align: center;
+    }
+}
+
+
+.page-link {
+    border: 1px solid black !important;
+    color: black;
+}
+
+.servis_slika {
+    border: 2px solid black;
+    box-shadow: 5px 5px;
+}
+
+.gumb_povijest {
+    width: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+}
+
+.sredina_povijest {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+
+.msg {
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
+
+.promjena_podataka {
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 1px solid black !important;
+    width: 100%;
+}
+
+.gumb_uredivanje_podataka {
+    text-align: center;
+}
+
+.tablica_boja {
+    background-color: #cfe2ff;
+}
+
+.dropdown_lista {
+    margin-top: 3px;
+}
+
+.slika_gumb {
+    width: 30px !important;
+}
+
+.forma_servis {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.forma_input {
+    border: 1px solid black !important;
+}
+
+.forma_servis_naslov {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+.gumb:hover img {
+    filter: invert(100%);
+}
+
+.badge {
+    font-size: 10px;
+    border-radius: 25px;
+    width: auto !important;
+    background-color: red;
+    position: relative !important;
+    top: -4px !important;
+    right: -43px;
+    z-index: 1;
+}
+
+.obavijest {
+    border: 0px;
+}
+
+.obavijest img {
+    filter: invert(50%);
+    border: 0px;
+    margin-top: 10px;
+}
+
+.obavijest:hover {
+    background-color: white;
+    filter: invert(0);
+}
+
+.obavijest:hover img {
+    background-color: white;
+    filter: invert(0);
+}
+
+.naslovi {
+    text-align: center;
+}
+
+.prijava {
+    width: auto !important;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.prijava:hover img {
+    filter: invert(50%);
+}
